@@ -21,7 +21,7 @@ Wire Frame:
 ![Image of Wireframe](Bootcamp_Proj-2/proj2.PNG)
 
 Breakdown of Tasks:
-Aimee – Backend
-Benjamin – Frontend
-Muna – Backend
+Aimee – Backend,
+Benjamin – Frontend,
+Muna – Backend,
 Aiya – Backend/Frontend
