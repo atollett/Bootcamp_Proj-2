@@ -1,9 +1,9 @@
 Project Title: Tricky Trivia
 
 Team 7: 
-Aimee Tollett
-Benjamin Young
-Muna Ahmed
+Aimee Tollett,
+Benjamin Young,
+Muna Ahmed,
 Aiya Siddig
 
 Project Description:
