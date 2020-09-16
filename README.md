@@ -17,7 +17,7 @@ How does the product solve that problem? Allowing users to test their knowledge 
 APIs: New York Times, OMDB
 
 Wire Frame:
-![Image of Wireframe](Bootcamp_Proj-2/proj2.png)
+![Image of Wireframe](Bootcamp_Proj-2/proj2.PNG)
 
 Breakdown of Tasks:
 Aimee – Backend
