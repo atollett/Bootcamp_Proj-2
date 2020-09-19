@@ -6,11 +6,11 @@ USE trivia;
 CREATE TABLE trivia_questions (
   topic VARCHAR(100) NOT NULL,
   question VARCHAR(100) NOT NULL,
-  choice1 VARCHAR(100) NOT NULL,
-  choice2 VARCHAR(100) NOT NULL,
-  choice3 VARCHAR(100) NOT NULL,
-  choice4 VARCHAR(100) NOT NULL,
-  correct_choice VARCHAR(100) NOT NULL
+  optionA VARCHAR(100) NOT NULL,
+  optionB VARCHAR(100) NOT NULL,
+  optionC VARCHAR(100) NOT NULL,
+  optionD VARCHAR(100) NOT NULL,
+  correct_option VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE highscores (
