@@ -2,23 +2,36 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>My First Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  <title>High Scores</title>
 </head>
 
 <body>
 
-  
-  <h1>High Scores!</h1>
+  <div class= "navbar">
+    <div class = "logo logotwo">
+        <img src="logo.PNG" alt ="logo" height= "100">
+    </div>
+</div>
 
-  <button>Culture</button>
-  <button>Politics</button>
-  <button>Sports</button>
-  <button>TV</button>
+  
+  <h1 class = "scoreboard">High Scores!</h1>
+    <div id = "highscoretopics">
+      <button type="button" class="btn btn-secondary btn-sm button">Sports</button>
+      <button type="button" class="btn btn-secondary btn-sm button">Tv Shows</button>
+      <button type="button" class="btn btn-secondary btn-sm button">Around the World</button>
+      <button type="button" class="btn btn-secondary btn-sm button">Politics</button>
+      </div>
+    </div>  
 
   <div class="score"></div>
 
-  <button>Play Again?</button>
+  <a href = "index.html" class = "home"> Home</a>
 
 
 </body>
