@@ -71,7 +71,7 @@ h2 {
 }
 .img-thumbnail:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 10px 5px #7c365d;
+    box-shadow: 0 0 20px #dd7bb1;
 }
 h3 {
     position: absolute;
