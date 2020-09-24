@@ -1,3 +1,24 @@
+// home page submit button
+(function() {
+  $('form * input').keyup(function() {
+  console.log(true);
+      var empty = false;
+      $('form * input').each(function() {
+          if ($(this).val() == '') {
+              empty = true;
+          }
+      });
+  
+      if (empty) {
+          $('#register').attr('disabled', 'disabled'); 
+      } else {
+          $('#register').removeAttr('disabled'); 
+      }
+  });
+  
+  })()
+
+// variables
 var fs = require("fs");
 var path = require("path");
 var Sequelize = require("sequelize");
