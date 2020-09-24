@@ -54,6 +54,7 @@ a:hover {
 .img-thumbnail {
     height: 180px;
     margin-bottom: 20px;
+    box-shadow: 0 0 20px #dd7bb1;
 }
 .topic {
     width: 312px;
