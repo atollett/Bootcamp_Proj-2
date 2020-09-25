@@ -9,21 +9,25 @@ body {
     position: ABSOLUTE;
     margin-top: 275px;
     left: 50%;
-    margin-left: -290px;
+    margin-left: -285px;
 
 }
-
+.homepage {
+    position: absolute;
+    left: 50%;
+}
 .logotwo {
-    margin-left: -100px;
+    margin-left: -110px;
     margin-top: 100px;
 
 }
 .mycustom {
-    position: fixed;
+    position:absolute;
     margin-top: 275px;
     width: 350px;
     left: 50%;
-    margin-left: -180px;
+    margin-left: -185px;
+
     }
 
 a {
@@ -34,7 +38,7 @@ a {
     margin-top: 345px;
     width: 200px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -60px;
     font-size: 20px;
     text-shadow: 2px 2px #8b375a;
 }
@@ -52,9 +56,9 @@ a:hover {
 }
 
 .img-thumbnail {
+    min-width: 312px;
     height: 180px;
     margin-bottom: 20px;
-    box-shadow: 0 0 20px #dd7bb1;
 }
 .topic {
     width: 312px;
@@ -117,6 +121,11 @@ h3 {
     text-align: left;
     font-size: 20px;
 }
+#displayimage {
+    float:left;
+    margin-top: -305px;
+    margin-left: 10%; 
+}
 .answers {
     margin-top: 0px;
     margin-left: 55%;
@@ -130,12 +139,7 @@ h3 {
     margin-top: 120px;
     margin-bottom: 15px;
     text-align: center;
-}
 
-#displayimage {
-    float:left;
-    margin-top: -305px;
-    margin-left: 10%;
 }
 #highscoretopics {
     position: absolute;
