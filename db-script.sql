@@ -1,16 +1,5 @@
-CREATE TABLE IF NOT EXISTS trivia_questions (
-    `Topic` VARCHAR(16) CHARACTER SET utf8,
-    `Question` VARCHAR(146) CHARACTER SET utf8,
-    `OptionA` VARCHAR(22) CHARACTER SET utf8,
-    `OptionB` VARCHAR(25) CHARACTER SET utf8,
-    `OptionC` VARCHAR(26) CHARACTER SET utf8,
-    `OptionD` VARCHAR(30) CHARACTER SET utf8,
-    `CorrectAnswer` VARCHAR(2) CHARACTER SET utf8,
-    `Create` INT,
-    `Update` INT
-);
-INSERT INTO trivia_questions VALUES
-    ('Politics','American politician and diplomat Madeleine Albright was born in what central European country?','Germany','Poland','Serbia','Czechoslovakia','D',NULL,NULL),
+INSERT INTO triviaquestions (topic, question, optionA, optionB, optionC, optionD, correct_option, createdAt, updatedAt)
+    ('Politics','American politician and diplomat Madeleine Albright was born in what central European country?','Germany','Poland','Serbia','Czechoslovakia','D',now(),now()),
     ('Politics','At the time of his assassination, what play was Abraham Lincoln watching?','Carmen','Our American Cousin','Uncle Vanya','Mary Stuart','B',NULL,NULL),
     ('Politics','Where was Richard Nixon when he delivered his infamous “I am not a crook” speech?','Portland, Oregon','Washington D.C.','Orlando, Florida','New York, New York','C',NULL,NULL),
     ('Politics','In 1952, Albert Einstein was offered the presidency of which country?','Israel','Germany','England','America','A',NULL,NULL),
