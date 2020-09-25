@@ -1,0 +1,162 @@
+body {
+    background-color: #07151d;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100vw;
+    overflow: hidden;
+}
+.logo {
+    position: ABSOLUTE;
+    margin-top: 275px;
+    left: 50%;
+    margin-left: -285px;
+
+}
+.homepage {
+    position: absolute;
+    left: 50%;
+}
+.logotwo {
+    margin-left: -110px;
+    margin-top: 100px;
+
+}
+.mycustom {
+    position:absolute;
+    margin-top: 275px;
+    width: 350px;
+    left: 50%;
+    margin-left: -185px;
+
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+    text-emphasis: none;
+    position: ABSOLUTE;
+    margin-top: 345px;
+    width: 200px;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 20px;
+    text-shadow: 2px 2px #8b375a;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.topics {
+    position: absolute;
+    margin-top: 180px;
+    left: 20%;
+    margin-left: -50px;
+}
+
+.img-thumbnail {
+    min-width: 312px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.topic {
+    width: 312px;
+    text-align: center;
+    position: absolute;
+    margin-top: -58px;
+    color: rgb(26, 26, 26);
+    background-color: rgb(219, 219, 219);
+    padding-top: 5px;
+
+
+}
+h2 {
+    font-size: 20px;
+}
+.img-thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px #dd7bb1;
+}
+h3 {
+    position: absolute;
+    margin-top: 115px;
+    left: 50%;
+    margin-left: -130px;
+
+}
+
+#receivescore {
+    position: absolute;
+    margin-top: 140px;
+    left: 50%;
+    
+}
+ .receivescorebuttons {
+     margin-left: -152px;
+ }
+.button {
+    margin: 20px;
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+.yourscore {
+    font-size: 28px;
+    margin-left: -70px;
+}
+.score {
+    font-size: 60px;
+    margin-left: -90px;
+    text-shadow: 4px 4px #8b375a;
+}
+.choices{
+    width: 80vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    max-width: 80rem;
+    margin: 1vh;
+    padding: 2rem;
+    text-align: left;
+    font-size: 20px;
+}
+#displayimage {
+    float:left;
+    margin-top: -305px;
+    margin-left: 10%; 
+}
+.answers {
+    margin-top: 0px;
+    margin-left: 55%;
+    margin-right: 10%;
+
+}
+
+#question {
+    margin-left: 10%;
+        margin-right: 10%;
+    margin-top: 120px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+#highscoretopics {
+    position: absolute;
+    left: 50%;
+    margin-left: -295px;
+    margin-top: 155px;
+}
+.home {
+    margin-top: 330px;
+    font-size: 23px;
+}
+.scoreboard {
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    margin-top: 130px;
+    text-shadow: 4px 4px #8b375a;
+    font-size: 50px;
+
+}
