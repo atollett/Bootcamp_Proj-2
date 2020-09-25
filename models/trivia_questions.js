@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var Trivia = sequelize.define("Trivia", {
+    var TriviaQuestions = sequelize.define("TriviaQuestions", {
       topic: DataTypes.STRING,
       question: DataTypes.STRING,
       optionA: DataTypes.STRING,
@@ -8,5 +8,5 @@ module.exports = function(sequelize, DataTypes) {
       optionD: DataTypes.STRING,
       correct_option: DataTypes.STRING
     });
-    return Trivia;
+    return TriviaQuestions;
   };

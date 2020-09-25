@@ -19,7 +19,7 @@ connection.connect(function(err) {
   if (err) {
     throw err;
   }
-  pickQuestions(topic);
+  //pickQuestions(topic);
 });
 
 function pickQuestions(topic) {
@@ -48,5 +48,5 @@ function populateQuestions(results) {
   }
 }
 
-module.exports = questions;
+module.exports = pickQuestions;
 // module.exports = connection;

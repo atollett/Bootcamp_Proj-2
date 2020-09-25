@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel = "stylesheet" href = "/public/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/style.css">
 
 </head>
+
 <body>
-    <div class = "homepage">
-    <div class= "navbar">
-        <div class = "logo">
-            <img src="/public\assets\logo.PNG" alt ="logo" height= "250">
-        </div>
+  <div class="homepage">
+    <div class="navbar">
+      <div class="logo">
+        <img src="/public\assets\logo.PNG" alt="logo" height="250">
+      </div>
     </div>
-    
-    <form method="post" action="topics.html" id = "form">
-        <div class="col-lg-10 mb-3">
-          <div class="input-group mycustom">
-            <input type="text" class="form-control rounded-0" id="validationDefaultUsername" placeholder="Enter Your Name" aria-describedby="inputGroupPrepend2" required>
-            <div class="input-group-prepend">
-              <input type="submit" id="register" value="Submit" disabled="disabled" class="btn btn-secondary btn-sm rounded-0" id="inputGroupPrepend2" />
-            </div>
+
+    <form method="post" action="topics.html" id="form">
+      <div class="col-lg-10 mb-3">
+        <div class="input-group mycustom">
+          <input type="text" class="form-control rounded-0" id="validationDefaultUsername" placeholder="Enter Your Name"
+            aria-describedby="inputGroupPrepend2" required>
+          <div class="input-group-prepend">
+            <input type="submit" id="register" value="Submit" disabled="disabled"
+              class="btn btn-secondary btn-sm rounded-0" id="inputGroupPrepend2" />
           </div>
         </div>
-      </form>
-      <a href="highscores.html"> High Scores</a>
-      <div class = "homepage">  
+      </div>
+    </form>
+    <a href="highscores.html"> High Scores</a>
+    <div class="homepage">
 
 
 </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/public/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/public/index.js"></script>
+<script>
+
+  // home page submit button
+  (function () {
+    $('form * input').keyup(function () {
+      console.log(true);
+      var empty = false;
+      $('form * input').each(function () {
+        if ($(this).val() == '') {
+          empty = true;
+        }
+      });
+
+      if (empty) {
+        $('#register').attr('disabled', 'disabled');
+      } else {
+        $('#register').removeAttr('disabled');
+      }
+    });
+
+  })()
+
+</script>
 
 </html>
