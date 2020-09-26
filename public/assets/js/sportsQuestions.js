@@ -3,7 +3,6 @@ var questionArray = [{
     question: 'Which NBA player is represented in the NBA logo?',
     choices: ['Jerry West', 'Kobe Bryant', 'Shaq', 'Karl Malone', ],
     answer: 'Jerry West',
-
 },
 {
     question: 'What year was Tom Brady drafted?',
@@ -51,43 +50,7 @@ var questionArray = [{
     question: 'How many fouls can you give before you are fouled out in the NBA?',
     choices: ['5','6','4','7'],
     answer: '6',
-
-},
-{
-    question: 'What is the minimum amount of players on a professional Hockey team?',
-    choices:['15','12','25','20'],
-    answer: '20',
-
-},
-{
-    question: 'How many football teams are in the National Footbal League?',
-    choices: ['30', '24', '32', '40',],
-    answer: '32',
-
-},
-{
-    question: 'How many teams are in the Womens National Basketball Association?',
-    choices:['24','12','20','28'],
-    answer: '12',
-
-},
-{
-    question:'How many points is a touchdown in the NFL?',
-    choices:['6','7','8','3'],
-    answer: '6'
-
-},
-{
-    question: 'Which olympic athlete owns the 100 meter world record?',
-    choices: ['Justin Gattlin',	'Ben Johnson',	'Usain Bolt',	'Carl Lewis'],
-    answer: 'Usain Bolt',
-
-},
-{
-    question: 'Which Olmpian holds the most medals in indivudal events?',
-    choices: ['Michael Jordan',	'Michael Phelps',	'Usain Bolt',	'Larisa Latynina'],
-    answer: 'Michael Phelps',
-}
+} 
 
 ];
 

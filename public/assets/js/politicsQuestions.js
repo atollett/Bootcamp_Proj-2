@@ -23,7 +23,31 @@ var questionArray = [{
     question: 'Who was first U.S. president to be impeached?',
     choices:[ 'Andrew Johnson',	'Donald Trump',	'Richard Nixon','Bill Clinton',],
     answer: 'Andrew Johnson',
-
+},
+{
+    question: 'Who became both a vice president and president of the United States without ever being elected to either office?',
+    choices:['James Madison',	'Gerald Ford',	'Zachary Taylor',	'Dwight D. Eisenhower'],
+    answer: 'Gerald Ford',
+},
+{
+    question: 'Who was the first female Prime Minister of a European country?',
+    choices: ['Angela Merkel', 	'Margaret Thatcher', 	'Indira Gandhi',	'Milka Planinc'],
+    answer: 'Margaret Thatcher',
+},
+{
+    question: 'Which U.S. president issued the Emancipation Proclamation?',
+    choices: ['James Buchanan',	'Andrew Johnson',	'Abraham Lincon',	'Theodore Roosevelt'],
+    answer: 'Abraham Lincon',
+},
+{
+    question: 'The Bill of Rights contains how many of the first amendments to the United States Constitution?',
+    choices: ['Eight',	'Nine',	'Ten',	'Eleven',],
+    answer: 'Ten',
+},
+{
+    question: 'Who was the first U.S. president that was born a citizen of the United States?',
+    choices: ['George Washington',	'John Adams',	'Thomas Jefferson',	'Martin Van Buren',],
+    answer: 'Matin Van Buren',
 }
 
 ];
