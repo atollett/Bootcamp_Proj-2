@@ -1,0 +1,32 @@
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.optbtn {
+    margin: 5px;
+    width: 50px;
+}
+
+.row {
+    border: lightcyan;
+    margin: 10px;
+}
+
+.container{
+        max-width: 900px;
+        text-align: center;
+        font-style: normal;
+       
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
