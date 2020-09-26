@@ -30,7 +30,7 @@ body {
 
     }
 
-a {
+.link {
     text-decoration: none;
     color: white;
     text-emphasis: none;
