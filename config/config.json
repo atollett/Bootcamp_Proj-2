@@ -1,18 +1,17 @@
 {
   "development": {
-    "username": "root",
-    "password": "010tree010",
-    "database": "trivia",
-    "host": "127.0.0.1",
-    "port": 3306,
+    "username": "miieba4qdagapqmk",
+    "password": "y56ckpbgyzi221t6",
+    "database": "yshhtu0allvdu18a",
+    "host": "sm9j2j5q6c8bpgyq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
     
   },
   "test": {
-    "username": "root",
-    "password": "010tree010",
-    "database": "trivia",
-    "host": "127.0.0.1",
+    "username": "miieba4qdagapqmk",
+    "password": "y56ckpbgyzi221t6",
+    "database": "yshhtu0allvdu18a",
+    "host": "sm9j2j5q6c8bpgyq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
