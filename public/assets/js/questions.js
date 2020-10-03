@@ -11,7 +11,7 @@ if (process.env.JAWSDB_URL) {
     port: 3306,
     user: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASSWRD,
-    database: "trivia_db"
+    database: "trivia"
   });
 } 
 
